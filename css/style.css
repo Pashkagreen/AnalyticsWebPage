@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap");
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  --grey: #48555b;
+  --wrapperWidth: 1440px;
+  --contWidth: 940px;
+  background-color: white;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: var(--wrapperWidth);
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background: url(/img/header-background.png) center/cover;
+  min-height: 769px;
+  width: 100%;
+}
+.logo {
+  display: block;
+  margin: auto;
+  margin-top: 41px;
+  margin-bottom: 0;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 18%;
+  margin-bottom: 18%;
+}
+.header-headline {
+  margin: 0;
+  font-size: 60px;
+  line-height: 70px;
+  color: white;
+  letter-spacing: 5.7px;
+}
+.header-text {
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.scroll-text {
+  margin: 0 auto;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 3.7px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+.container {
+  max-width: var(--contWidth);
+  margin: 0 auto;
+  padding: 0;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  min-height: 20px;
+  align-items: center;
+  margin-bottom: 57px;
+}
+.nav-logo {
+  height: 18px;
+}
+.nav-utilities {
+  display: flex;
+  list-style-type: none;
+  width: 50%;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.09091px;
+  color: var(--grey);
+}
+ul li a:hover {
+  color: #00a4e5;
+}
+.our-story {
+  display: flex;
+  flex-direction: column;
+}
+.section-title {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2.30625px;
+  color: var(--grey);
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #00a4e5;
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+.our-story-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px auto 120px;
+}
+.our-story-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.our-story-items {
+  padding-top: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.our-story-info h4 {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0;
+  letter-spacing: 0.1875px;
+  color: var(--grey);
+  margin-bottom: 30px;
+}
+.our-story-info h4 span {
+  color: #00a4e5;
+}
+.our-story-info p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1875px;
+  color: var(--grey);
+  width: 405px;
+}
+.story-item1 {
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 30%;
+  background: url(/img/card1.png) center/cover;
+  height: 100%;
+}
+.story-item2 {
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 30%;
+  background: url(/img/card2.png);
+  height: 100%;
+}
+.story-item3 {
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 30%;
+  background: url(/img/card3.png);
+}
+.our-story-items span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1875px;
+  color: #ffffff;
+}
+.capabilietes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 115px;
+}
+.capabilietes-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 78px;
+  align-items: center;
+}
+.capabilietes-info .section-title {
+  margin: 0;
+}
+.capabilietes-info p {
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: var(--grey);
+  width: 405px;
+}
+.button {
+  background-color: #00a4e5;
+  color: white;
+  text-transform: uppercase;
+  padding: 11px 29px;
+  border: none;
+  font-size: 13px;
+  line-height: 18px;
+  transition: 0.5s;
+}
+.button:hover {
+  border: 1px solid var(--grey);
+}
+.capabilietes-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.capability-card {
+  width: 295px;
+  padding: 22px 38px;
+  border: 1px solid #e6e6e6;
+}
+.capability-card p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  color: var(--grey);
+}
+.capability-card h4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey);
+}
+.card-logo {
+  height: 75px;
+}
+.contact {
+  background: url(/img/about-background.png) center/cover;
+  min-height: 498px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact h2 {
+  margin-top: 120px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: var(--grey);
+  width: 350px;
+  text-align: center;
+}
+.touch {
+  font-family: "Open Sans";
+  background-color: #00a4e5;
+  color: white;
+  padding: 11px 26px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  border: none;
+  text-transform: uppercase;
+}
+.letter {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.letter span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.846154px;
+  color: #ffffff;
+  margin-right: 70px;
+}
+form input {
+  border: none;
+  outline: none;
+  width: 250px;
+  padding: 11px 16px 13px;
+}
+.about {
+  width: 100%;
+  background-color: black;
+}
+.signup {
+  margin: 0;
+  color: white;
+  background-color: #00a4e5;
+  padding: 11px 45px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.5;
+  text-transform: uppercase;
+}
+.company-block {
+  color: white;
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+}
+.company {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.footer-title {
+  text-transform: uppercase;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  letter-spacing: 0.846154px;
+  margin-bottom: 19px;
+}
+.about-logo {
+  width: 101px;
+  height: 23px;
+  margin-bottom: 15px;
+}
+.company p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  margin-bottom: 10px;
+}
+.links {
+  width: 28%;
+}
+.links-block {
+  display: flex;
+  flex-direction: row;
+}
+.link1,
+.link2,
+.link3 {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  align-items: start;
+  letter-spacing: 0.846154px;
+  text-transform: uppercase;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  display: flex;
+  justify-content: start;
+  letter-spacing: 0.846154px;
+}
+.contact-us a {
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  display: flex;
+  justify-content: start;
+  letter-spacing: 0.846154px;
+}
+.tel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.socials {
+  padding-top: 20px;
+  width: 87px;
+  display: flex;
+  justify-content: space-between;
+}
+.socials img {
+  height: 12px;
+  width: 12px;
+}
+.footer {
+  padding: 21px 0 23px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.8px;
+}

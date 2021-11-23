@@ -1,0 +1,105 @@
+@media (max-width: 950px) {
+  .company-block {
+    padding: 15px 20px 0;
+  }
+}
+
+@media (max-width: 930px) {
+  .header article {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .nav-bar {
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  .nav-utilities {
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 20px;
+  }
+  .nav-utilities li a {
+    font-size: 20px;
+  }
+  .our-story-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .our-story-info p {
+    width: 100%;
+  }
+  .our-story-items {
+    flex-wrap: wrap;
+  }
+  .capabilietes {
+    margin-bottom: 0;
+  }
+  .story-item1,
+  .story-item2,
+  .story-item3 {
+    min-height: 200px;
+    padding: 10px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .capabilietes-info {
+    flex-direction: column;
+    height: 160px;
+    align-items: space-between;
+    margin-bottom: 30px;
+  }
+  .capabilietes-cards {
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: 20px;
+  }
+  .letter {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .letter span {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .letter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+  }
+  .letter input {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 670px) {
+  .company {
+    display: none;
+  }
+  .links {
+    width: 45%;
+  }
+}
+@media (max-width: 460px) {
+  .footer-title {
+    justify-content: center;
+  }
+
+  .links {
+    margin: 20px 0;
+    width: 80%;
+  }
+  .company-block {
+    flex-direction: column;
+    align-items: center;
+  }
+}
