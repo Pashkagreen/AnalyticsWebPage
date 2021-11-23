@@ -21,7 +21,7 @@ html {
 header {
   display: flex;
   flex-direction: column;
-  background: url(/img/header-background.png) center/cover;
+  background: url(../img/header-background.png) center/cover;
   min-height: 769px;
   width: 100%;
 }
@@ -168,21 +168,21 @@ ul li a:hover {
   padding-top: 15px;
   padding-left: 15px;
   width: 30%;
-  background: url(/img/card1.png) center/cover;
+  background: url(../img/card1.png) center/cover;
   height: 100%;
 }
 .story-item2 {
   padding-top: 15px;
   padding-left: 15px;
   width: 30%;
-  background: url(/img/card2.png);
+  background: url(../img/card2.png);
   height: 100%;
 }
 .story-item3 {
   padding-top: 15px;
   padding-left: 15px;
   width: 30%;
-  background: url(/img/card3.png);
+  background: url(../img/card3.png);
 }
 .our-story-items span {
   font-style: normal;
@@ -253,7 +253,7 @@ ul li a:hover {
   height: 75px;
 }
 .contact {
-  background: url(/img/about-background.png) center/cover;
+  background: url(../img/about-background.png) center/cover;
   min-height: 498px;
   display: flex;
   flex-direction: column;
